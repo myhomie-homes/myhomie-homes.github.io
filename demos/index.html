@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 1.2rem;
+    }
+    .media {
+      margin-bottom: 30px;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+    .audio-frame {
+      height: 80px;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>MyHomie Demo Showcase</h1>
+
+    <div class="media">
+      <h2>Video Demo (Home Tour)</h2>
+      <iframe src="https://drive.google.com/file/d/1tP3m9J8mznC16VEdguO3gJ2fNEtWlYWz/preview" 
+              height="480" allow="autoplay; fullscreen"></iframe>
+    </div>
+
+    <div class="media">
+      <h2>Audio Demo (Onboarding Call)</h2>
+      <iframe src="https://drive.google.com/file/d/15BsF3C6owHbp770yIdETjSKMXwq6IOzi/preview" 
+              class="audio-frame" allow="autoplay"></iframe>
+    </div>
+  </div>
+</body>
+</html>
